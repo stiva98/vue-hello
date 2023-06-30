@@ -7,3 +7,9 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+.dimension {
+    height: 12.5rem;
+    width: 12.5rem;
+    object-fit: cover;
+    /*display: none;*/
+}

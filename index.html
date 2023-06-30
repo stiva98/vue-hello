@@ -18,6 +18,10 @@
         <h1>
             {{ nameTitle }}
         </h1>
+        <button @click="myButton">
+            Clicca per vedere l'immagine
+        </button>
+        <img :src="img" alt="goku" :class="classImg" v-if="img">
     </div>
 
 
